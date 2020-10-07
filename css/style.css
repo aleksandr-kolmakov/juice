@@ -9,6 +9,11 @@ body {
     margin: 0 auto;
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
 span {
     color: #5abb33;
 }
@@ -30,6 +35,7 @@ span {
     justify-content: space-between;
     align-items: center;
     padding-top: 70px;
+    margin-bottom: 50px;
 }
 
 .logo {
@@ -44,17 +50,41 @@ span {
     margin: 0;
     padding: 0;
     list-style: none;
+
 }
 
 .menu__item {
-    margin-left: 50px;    
+    margin-left: 50px;
 }
 
-.menu__link {}
+.menu__item:first-child {
+    margin-left: 0;
+}
 
-.header__content {}
+.menu__link {
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 62px;
+}
 
-.header__title {}
+.menu__link:hover {
+    text-decoration: underline;
+}
+
+.header__content {
+    display: flex;
+
+}
+
+.header__title {
+    max-width: 500px;
+    color: #000000;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 62px;
+}
 
 .header__subtitle {}
 
